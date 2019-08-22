@@ -68,3 +68,6 @@ function f(){console.log('inner');}
 f(); // 报错 浏览器实现块级作用域中声明函数类似var,会提升到作用域的头部
 })();
 ```
+8. const 声明一个只读常量，本质上const 保证的是保存数据的内存地址不变。
+9. es6声明变量的六种方法 es5只有两种变量声明方法：var 和 function 命令。es6添加了let、const、import、class命令。
+10. 顶层对象的属性，var 和function 生命的全局变量依旧是顶层对象的属性，而用let 和 const 声明的变量不再属于顶层对象的属性。
